@@ -7,7 +7,7 @@ import requests
 from bs4 import BeautifulSoup
 import time
 
-# paranın fiyatını almak için bir fonksiyon yarat
+# paranın fiyatını almak için bir fonksiyon oluştur.
 
 def get_latest_money_price(money):
     url = 'https://www.google.com/search?q=' + (money)
